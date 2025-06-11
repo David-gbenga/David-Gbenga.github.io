@@ -1,0 +1,133 @@
+
+/* main.css - Kolawole David Portfolio Styling */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#intro {
+    text-align: center;
+    padding: 40px 20px;
+    background: #0077cc;
+    color: #fff;
+}
+
+#intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#intro p {
+    font-size: 1.2em;
+}
+
+header#header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header#header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav#nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav#nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav#nav ul.links li,
+nav#nav ul.icons li {
+    margin-right: 15px;
+}
+
+nav#nav a {
+    color: #fff;
+}
+
+.post.featured {
+    padding: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post.featured h2 {
+    color: #0077cc;
+}
+
+.image.main img,
+.image.fit img {
+    width: 100%;
+    height: auto;
+}
+
+ul.actions.special {
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul.actions.special li {
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+    background: #0077cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+footer#footer {
+    background: #f8f8f8;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+footer#footer h3 {
+    margin-top: 0;
+}
+
+footer#footer .icons a {
+    margin-right: 10px;
+    color: #0077cc;
+}
+
+#copyright {
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    font-size: 0.8em;
+    color: #666;
+}

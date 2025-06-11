@@ -1,0 +1,46 @@
+/* noscript.css - fallback styles for users with JavaScript disabled */
+
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
+  animation: none !important;
+  transition: none !important;
+}
+
+#wrapper {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.fade-in {
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+.image.main img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.actions.special .button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.actions.special .button:hover {
+  background-color: #555;
+}
+
+.icons.alt a {
+  color: #333;
+  text-decoration: none;
+}
+
+.icons.alt a:hover {
+  color: #0077b5;
+}
