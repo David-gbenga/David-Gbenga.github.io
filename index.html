@@ -6,6 +6,15 @@
 -->
 <html>
   <head>
+    <style>
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    <!-- temporal solution Add this <style> block somewhere in your <head> or <body> -->
+
     <title>Kolawole David | Data Scientist & BI Developer</title>
     <meta charset="utf-8" />
     <meta
@@ -25,7 +34,8 @@
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
       <!-- Intro -->
-      <div id="intro">
+      <div style="opacity: 0; animation: fadeIn 2s forwards">
+        <!--id="intro" previous  -->
         <h1>
           Kolawole David Olanipekun<br />
           Data Professional Portfolio
