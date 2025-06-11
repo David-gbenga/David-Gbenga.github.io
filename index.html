@@ -34,7 +34,7 @@
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
       <!-- Intro -->
-      <div style="opacity: 0; animation: fadeIn 2s forwards">
+      <div id="intro">
         <!--id="intro" previous  -->
         <h1>
           Kolawole David Olanipekun<br />
@@ -202,6 +202,15 @@
     </div>
 
     <!-- Scripts -->
+    <script>
+      window.addEventListener("load", function () {
+        const fadeElements = document.querySelectorAll(".fade-in");
+        fadeElements.forEach(function (el) {
+          el.classList.add("show");
+        });
+      });
+    </script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
